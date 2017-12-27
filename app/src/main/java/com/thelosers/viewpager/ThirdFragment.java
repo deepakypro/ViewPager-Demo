@@ -11,19 +11,19 @@ import android.widget.TextView;
  * Created by deepak on 27/12/17.
  */
 
-public class SecondFragment  extends Fragment {
+public class ThirdFragment  extends Fragment {
     // Store instance variables
     private String title;
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static SecondFragment newInstance(int page, String title) {
-        SecondFragment fragmentSecond = new SecondFragment();
+    public static ThirdFragment newInstance(int page, String title) {
+        ThirdFragment fragmentThird = new ThirdFragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
         args.putString("someTitle", title);
-        fragmentSecond.setArguments(args);
-        return fragmentSecond;
+        fragmentThird.setArguments(args);
+        return fragmentThird;
     }
 
     // Store instance variables based on arguments passed
